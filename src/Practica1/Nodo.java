@@ -4,20 +4,20 @@ public class Nodo {
     private Object dato;
     private Nodo siguiente;
 
-    public Nodo(Object dato, Nodo siguiente){
+    public Nodo(Object dato, Nodo siguiente) {
         this.dato = dato;
-        this.siguiente=siguiente;
+        this.siguiente = siguiente;
     }
 
     public Object getDato() {
         return dato;
     }
 
-    public void setDato(Object dato){
-        this.dato= dato;
+    public void setDato(Object dato) {
+        this.dato = dato;
     }
 
-    public Nodo getSiguiente(){
+    public Nodo getSiguiente() {
         return siguiente;
     }
 
