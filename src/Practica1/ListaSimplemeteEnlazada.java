@@ -1,7 +1,7 @@
 package Practica1;
 
 public class ListaSimplemeteEnlazada {
-    Nodo primero;
+    protected Nodo primero;
 
     public ListaSimplemeteEnlazada() {
         primero = null;
@@ -34,6 +34,6 @@ public class ListaSimplemeteEnlazada {
 
             tmp = tmp.getSiguiente();
         }
-
+        System.out.println();
     }
 }
