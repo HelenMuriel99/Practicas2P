@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicio4;
+package Ejercicios_Practica1.Ejercicio4;
 
 public class Numero {
     private int base;
